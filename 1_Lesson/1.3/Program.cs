@@ -1,4 +1,7 @@
-﻿Console.WriteLine("Write a number a: ");
+﻿// день недели по номеру
+Console.WriteLine("");
+
+Console.WriteLine("Введите номер дня недели: ");
 int a = int.Parse(Console.ReadLine());
 
 if (a == 1)
