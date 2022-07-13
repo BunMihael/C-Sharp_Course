@@ -1,10 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Write a number");
+﻿// Напишите программу, которая на вход принимает одно число(N), а на выходе показывает
+// все целые числа от -N до N. 
+
+Console.WriteLine("Write a number: ");
 int a = int.Parse(Console.ReadLine());
-// if (a<0)
-int i = -a;
-while (i <= a) ;
+int i = 0;
+int temp = 0;
+while (i < a * 2 + 1)
 {
-    Console.WriteLine(i);
-    i++;
+Console.WriteLine(-a + temp);
+i++;
+temp++;
 }
