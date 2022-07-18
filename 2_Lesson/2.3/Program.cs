@@ -29,4 +29,4 @@ else
 // Console.WriteLine ($"не кратно {a%b}");
 // }
 // }
-//Method1 (16,4);
+// Method1 (16,4);
